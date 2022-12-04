@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #323232;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+h1{
+    font-size: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #323232;
+}
+
+.icon{
+    left: 0;
+    margin-top: 70px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.self{
+    height: 300px;
+    float: right;
+    margin-right: 30%;
+    position: absolute;
+    left: 64%;
+    top: 30%;
+}
+
+
+.about{
+    padding: 0 100px 400px 100px;
+}
+
+.text_1{
+    left: 0;
+    margin-top: -90px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 80px;
+}
+
+.asp{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.text h1{
+    font-size: 40px;
+
+}
+
+.info{
+    padding-top: 30px;
+}
+
+.info li{
+    list-style: none;
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about{
+    padding-top: 2%;
+    
+}
+
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 4%;
+}
+
+.myimg{
+    float: left;
+    height: 400px;
+    margin-right: 20px;
+    width: 20%;
+}
+
+.background{
+    line-height: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 4vw);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.cards{
+    height: 300px;
+    width: 100%;
+    background: url("/WEB-DEV/img/chamb.png") no-repeat;
+    background-size: contain;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transition: width 2s, height 2s, transform 2s;  
+}
+
+.cards2{
+    height: 300px;
+    width: 100%;
+    background: url("/WEB-DEV/img/chamb.png") no-repeat;
+    background-size: contain;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.cards3{
+    height: 300px;
+    width: 100%;
+    background: url("/WEB-DEV/img/chamb.png") no-repeat;
+    background-size: contain;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.cards4{
+    height: 300px;
+    width: 100%;
+    background: url("/WEB-DEV/img/chamb.png") no-repeat;
+    background-size: contain;
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-column-end: 3;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+
+.cards5{
+    height: 300px;
+    width: 100%;
+    background: url("/WEB-DEV/img/chamb.png") no-repeat;
+    background-size: contain;
+    grid-column-start: 4;
+    grid-row-start: 6;
+    grid-column-end: 6;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.cards6{
+    height: 300px;
+    width: 100%;
+    background: url("/WEB-DEV/img/chamb.png") no-repeat;
+    background-size: contain;
+    grid-column-start: 7;
+    grid-row-start: 6;
+    grid-column-end: 9;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.cards:hover{
+    background: url("img/KENNETH\ VIER\ JOLIN\ CERRADO-1.png") no-repeat;
+    background-size: contain;
+    transform: rotate(360deg);
+    height: 600px;
+}
+
+.cards2:hover{
+    background: url("img/2020-2021\ PL-1.png") no-repeat;
+    background-size: contain;
+    transform: rotate(360deg);
+    height: 600px;
+}
+
+.cards3:hover{
+    background: url("img/2020-2021\ 2nd\ sem\ PL\ \(1\)-1.png") no-repeat;
+    background-size: contain;
+    transform: rotate(360deg);
+    height: 600px;
+}
+
+.cards4:hover{
+    background: url("img/NSE_1_Certification-1.png") no-repeat;
+    background-size: contain;
+    transform: rotate(360deg);
+    height: 600px;
+}
+
+.cards5:hover{
+    background: url("img/ace.png") no-repeat;
+    background-size: contain;
+    transform: rotate(360deg);
+    height: 600px;
+}
+
+.cards6:hover{
+    background: url("img/Course_Completion_Certificate-1.png") no-repeat;
+    background-size: contain;
+    transform: rotate(360deg);
+    height: 600px;
+}
+
+.portfolio{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: rgb(131, 112, 5);
+}
+
+
+.row{
+    padding-bottom: 50px;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+figure{
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.cont_img{
+    height: 200px;
+    width: 200px;
+}
+
+.caption{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.chamber{
+    background: linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,.4)), url("img/chambb.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+
+.main{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(160, 157, 11, 0.7), rgba(143, 89, 89, 0.4));
+}
+
+.info_about{
+    background: linear-gradient(to bottom, rgba(160, 157, 11, 0.7), rgba(122, 143, 89, 0.4));
+}
+
+.cont_bg{
+    height: 100vh;
+    background: linear-gradient(to right, rgba(192, 182, 91, 0.7), rgba(241, 220, 31, 0.7));
+}
+
+.item{
+    padding-top: 90px;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a{
+        grid-template-columns: 1fr;
+    }
+    .self{
+        display: none;
+    }
+    .myimg{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .info{
+        line-height: 50px;
+        text-align: justify;
+    }
+    .info li{
+        line-height: 30px;
+    }
+    .cont_img{
+        height: 100px;
+        width: 100px;
+        display: block;
+    }
+}
+
+.topnav a{
+    float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+#portfolio{
+    padding-top: 50px;
+}
+
+#navbar a:hover{
+    background: linear-gradient( rgba(201, 198, 32, 0.7), rgba(235, 232, 55, 0.4));;
+}
